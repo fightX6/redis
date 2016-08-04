@@ -1,6 +1,7 @@
 # redis
 http://www.redis.cn/  redis 中文网
 http://doc.redisfans.com/  redis 命令介绍 
+https://github.com/MSOpenTech/redis  非官方支持，微软开放技术小组针对win64开发的该版本。
 
 
 在使用redis时遇到的问题，设置的key不能保留在redis中，每次都会去取数据库。原因是 为给定 key 设置生存时间，当 key 过期时(生存时间为 0 )，它会被自动删除。
